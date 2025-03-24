@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Announcements - HOA Management</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="pag1.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HOA Manager</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="residents.html">Residents</a></li>
+          <li class="nav-item"><a class="nav-link" href="payments.html">Payments</a></li>
+          <li class="nav-item"><a class="nav-link" href="maintenance.html">Maintenance</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link active" href="announcements.html">Announcements</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Log In</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>Announcements</h1>
+    <p>Stay up to date with the latest news and important updates from your HOA</p>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container my-4">
+
+    <!-- Search and Add Announcement -->
+    <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap">
+      <div class="input-group w-50">
+        <input type="text" class="form-control" placeholder="Search announcements...">
+        <button class="btn btn-outline-secondary" type="button">Search</button>
+      </div>
+      <button class="btn btn-primary mt-2 mt-md-0">
+        <i class="bi bi-plus-circle"></i> New Announcement
+      </button>
+    </div>
+
+    <!-- Announcements List -->
+    <div class="row g-4">
+
+      <!-- Announcement Card 1 -->
+<div class="col-md-6">
+  <div class="card announcement-card announcement-bg-1">
+      <div class="card-body">
+          <h5 class="card-title">Annual HOA Meeting Scheduled</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Posted on March 5, 2025</h6>
+          <p class="card-text">The Annual HOA Meeting will take place on April 20th, 2025 at 6:00 PM in the Community Center. All residents are encouraged to attend as we will discuss budgets, upcoming projects, and community concerns.</p>
+          <a href="#" class="card-link">Read more</a>
+      </div>
+  </div>
+</div>
+
+<!-- Announcement Card 2 -->
+<div class="col-md-6">
+  <div class="card announcement-card announcement-bg-2">
+      <div class="card-body">
+          <h5 class="card-title">Pool Maintenance Notice</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Posted on March 8, 2025</h6>
+          <p class="card-text">Please be advised that the community pool will be closed for routine maintenance from March 15th to March 18th. We appreciate your understanding and cooperation.</p>
+          <a href="#" class="card-link">Read more</a>
+      </div>
+  </div>
+</div>
+
+<!-- Announcement Card 3 -->
+<div class="col-md-6">
+  <div class="card announcement-card announcement-bg-3">
+      <div class="card-body">
+          <h5 class="card-title">Landscaping Project Update</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Posted on March 10, 2025</h6>
+          <p class="card-text">Phase 2 of the landscaping improvement project is underway. We expect completion by the end of the month. Thank you for your patience as we enhance our green spaces.</p>
+          <a href="#" class="card-link">Read more</a>
+      </div>
+  </div>
+</div>
+
+<!-- Announcement Card 4 -->
+<div class="col-md-6">
+  <div class="card announcement-card announcement-bg-4">
+      <div class="card-body">
+          <h5 class="card-title">Security Patrol Hours Extended</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Posted on March 12, 2025</h6>
+          <p class="card-text">To improve community safety, we’ve extended security patrol hours from 6:00 PM to 6:00 AM. Please report any concerns to the HOA office immediately.</p>
+          <a href="#" class="card-link">Read more</a>
+      </div>
+  </div>
+</div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3">
+    <div class="container text-center">
+      <span>&copy; 2025 HOA Management. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

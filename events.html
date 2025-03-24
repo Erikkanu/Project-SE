@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events - HOA Management</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="pag1.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HOA Manager</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="residents.html">Residents</a></li>
+          <li class="nav-item"><a class="nav-link" href="payments.html">Payments</a></li>
+          <li class="nav-item"><a class="nav-link" href="maintenance.html">Maintenance</a></li>
+          <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="announcements.html">Announcements</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Log In</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>Upcoming Events</h1>
+    <p>Join our community events and stay connected!</p>
+  </header>
+
+  <!-- Main Content -->
+  <!-- Events Section -->
+<div class="container my-5">
+    <div class="row g-4">
+  
+      <!-- Spring Block Party -->
+      <div class="col-md-4">
+        <div class="card event-card event-bg-1">
+          <img src="spring-block-party.jpg" class="card-img-top" alt="Spring Block Party">
+          <div class="card-body">
+            <h5 class="card-title">Spring Block Party</h5>
+            <p class="card-text">Celebrate the season with live music, food stalls, and activities for all ages! Let’s make memories together.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="btn btn-primary rsvp-btn">Join</button>
+              <span class="event-date">April 10, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Community Picnic -->
+      <div class="col-md-4">
+        <div class="card event-card event-bg-2">
+          <img src="community-picnic.jpg" class="card-img-top" alt="Community Picnic">
+          <div class="card-body">
+            <h5 class="card-title">Community Picnic</h5>
+            <p class="card-text">Join us in the specially arranged green space of the complex for a delightful picnic. Bring your favorite dishes and enjoy games, music, and relaxation with neighbors!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="btn btn-primary rsvp-btn">Join</button>
+              <span class="event-date">May 15, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Community Movie Night -->
+      <div class="col-md-4">
+        <div class="card event-card event-bg-3">
+          <img src="movie-night.jpg" class="card-img-top" alt="Community Movie Night">
+          <div class="card-body">
+            <h5 class="card-title">Community Movie Night</h5>
+            <p class="card-text">Enjoy an outdoor movie under the stars! Bring blankets, chairs, and your favorite snacks. Fun for the whole family!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <button class="btn btn-primary rsvp-btn">Join</button>
+              <span class="event-date">June 1, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  
+  </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3">
+    <div class="container text-center">
+      <span>&copy; 2025 HOA Management. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (Optional if you're not using interactive elements yet) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
